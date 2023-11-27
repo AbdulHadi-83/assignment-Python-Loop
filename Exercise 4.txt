@@ -1,0 +1,6 @@
+#Given names.
+names = ["Abdul Hadi", "Muhammad Ali", "Sir Owais", "Rohan Hyder", "Hamza Ali"]
+
+#now the names in a for loop.
+for name in names:
+    print(name)

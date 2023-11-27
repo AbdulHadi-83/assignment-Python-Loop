@@ -1,0 +1,12 @@
+#get number from the user
+num =(input("Enter a number "))
+
+#Initializing the factorial variable
+factorial = 1
+
+#Calculate the factorial using a while loop
+while num > 0:
+    factorial *= num
+    num -= 1
+
+print("The factorial number is:", factorial)
